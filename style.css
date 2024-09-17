@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+ body{
+    height: 100%;
+    width: 100%;
+    background-color: #0f8a9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contaner{
+    height: 400px;
+    width: 700px;
+    margin-top: 150px;
+    background-color: white;
+   border-radius: 20px;
+   display: flex;
+
+}
+.box{
+    height: 100%;
+    width: 50%;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+
+
+}
+.box1{
+    height: 100%;
+    width: 50%;
+  background-color: blue;
+ overflow: hidden;
+
+
+}
+.item{
+    height: 15%;
+    width: 85%;
+    color: white;
+    
+}
+.item1{
+    height: 18%;
+    width: 85%;
+  
+    color: white;
+
+}
+
+.item2{
+    height: 15%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+   align-items: center;
+
+}
+.box-item{
+    height: 50px;
+    width: 60px ;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-item  a{
+    color: white;
+    text-decoration: none;
+}
+
+.box-item1{
+    height: 50px;
+    width: 60px ;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.box-item1  a{
+    color: white;
+    text-decoration: none;
+}
+.box-item2{
+    height: 50px;
+    width: 60px ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.box-item2  a{
+    color: white;
+    text-decoration: none;
+}
